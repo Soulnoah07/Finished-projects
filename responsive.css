@@ -14,5 +14,26 @@
         display: block;
     }
 } 
+@media screen and (min-width:761px) {
+    .main-content{
+        font-size: 1.5rem;
+        align-items:start ;
+    }
+    .full-about{
+        display: flex;
+    }
+    .skill-images{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .ser-bg{
+        text-align: center;
+    }
+    .full-ser{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;   
+        }
+}
 
 

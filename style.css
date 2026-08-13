@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: #ffff;
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -57,7 +58,7 @@ header{
 .side-navbar{
     position: fixed;
     top: 0;
-    left: -300px;
+    left: -400px;
     width: 50%;
     height: 100vh;
     background-color: #0F172A;
@@ -95,7 +96,6 @@ header{
     margin: 200px 40px;
     display: inline-block;
     font-size: 14px;
-    width: 500px;
 }
 .myname{
     color: #A855F7;
@@ -200,7 +200,7 @@ td{
 
 .skill-images  div{
     margin-top: 30px;
-    margin-left:40px ;
+    margin-left:35px ;
     height: 150px;
     width: 200px;
     background-color: #4c4c50;
@@ -253,7 +253,6 @@ td{
     height: 300px;
     width: 280px;
     background-color: #4c4c50; 
-    margin-left: 20px;
     backface-visibility: visible;
     border-radius: var(--border-radius);
     transition: all 1s;
@@ -412,6 +411,7 @@ td{
     font-size: 23px;
 }
 .final hr{
+    margin-top: 20px;
     color: white;
     width: 100%;
 }
@@ -423,3 +423,7 @@ td{
     margin-top: 30px;
     font-size: 15px;
 } 
+.final{
+    padding-bottom: 30px;
+
+}

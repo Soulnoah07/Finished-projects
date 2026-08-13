@@ -5,5 +5,5 @@ function shownav() {
 }
 
 function closenav() {
-    sidenav.style.left="-300px";
+    sidenav.style.left="-400px";
 }
