@@ -21,19 +21,65 @@
     }
     .full-about{
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .about-container1{
+        margin: 30px;
+        font-size: 1.5rem;
+    }
+    .about-container2{
+        margin: 30px;
+        width: 800px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .about-container1 a{
+        font-size: 1rem;
+    }
+    .about-container1 td{
+        font-size:1.2rem ;
     }
     .skill-images{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .pro-con2{
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .pro-card{
+        margin-left: 20px;
     }
     .ser-bg{
         text-align: center;
     }
+
+
     .full-ser{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;   
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
         }
+    .ser-container{
+        margin-left: 40px;
+    }
+    .contact-card{
+        width: 600px;
+    }
+    .card-content input[type="text"] {
+        width: 500px;
+    }
 }
 
 
