@@ -4,22 +4,335 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MUTHEESWARAN</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <h1>MyPortfolio</h1>
-            <ul>
+            <h1 class="logo">MyPortfolio</h1>
+            <ul class="navbar-list">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#Skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
-                <li><a href="./images/Mutheeswaran CV.pdf" download="mutheeswaran.pdf">Download CV</a></li>
             </ul>
+           <p class="menu-icon"  onclick="shownav()"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></p>
         </nav>
+
+        <nav class="side-navbar">
+            <p class="side-icon" onclick="closenav()"><svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#e3e3e3"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></p>
+            <ul class="side-navbar-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+          
+        </nav>
+        
     </header>
-    
+
+    <main class="main-container">
+        <article class="full-content">
+            <section class="main-content">
+                <h2>Hello,I'm <br><h1 class="myname"> MUTHEESWARAN</h1></h2>
+                <h1>You can call me <span class="nickname">NOAH </span></h1>
+                <h2 class="domain">MERN STACK DEVELOPER</h2>
+                <h2>I build thing for web.</h2>
+                <p>I'm a passinoate developer who  loves turning ideas into  clean, modern and user-friendly websites</p>
+            </section>
+        </article>
+<!-- --------------about section -------------------------------->
+            <article class="about-container">
+                <section class="full-about">
+                <div class="about-container1">
+                <h2>ABOUT ME</h2>
+                <h2>GET TO KNOW MORE!</h2>
+                <p>I'm a passinoate full stack developer who loves  turning ideas into real-world applications. I enjoy solving problems. learning new technologies, and building clean, efficient codes.</p>
+                <table>
+                    <tr>
+                        <td>Name</td>
+                        <td>:</td>
+                        <td>MUTHEESWARAN G</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>:</td>
+                        <td>developer.learnsgood@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Location</td>
+                        <td>:</td>
+                        <td>Salem,Tamilnadu</td>
+                    </tr>
+                    <tr>
+                        <td>Experience</td>
+                        <td>:</td>
+                        <td>Fresher</td>
+                    </tr>
+                    <tr>
+                        <td>Availability</td>
+                        <td>:</td>
+                        <td>Open to Work</td>
+                    </tr>
+                </table>
+            <a href="./images/Mutheeswaran CV.pdf" download="mutheeswaran.pdf">Download CV</a>
+            </div>
+            <div class="about-container2">
+                <img src="./images/WhatsApp Image 2026-07-20 at 5.52.42 PM.jpeg" alt="mutheeswaran-photo">
+                <div class="about-container4">
+                    <div class="card">
+                        <div class="con1"></div>
+                        <div class="con2">
+                            <h1>0+</h1>
+                            <p>Years Experience</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="con1">
+
+                        </div>
+                            <div class="con2">
+                                <h1>5+</h1>
+                                <p>Projects Completed</p>
+                            </div>
+                    </div>
+                    <div class="card">
+                        <div class="con1"></div>
+                        <div class="con2">
+                        <h1>100%</h1>
+                        <p>Dedication</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            </article>
+            
+        </article>
+
+
+        <!----------------------------Skill section  --------------------------- -->
+        
+
+        <section class="skills" id="Skills">
+        <div class="skill-container">
+            <h2>Technologies I whork with</h2>
+            <div class="skill-images">
+                <div><img src="./images/skill icons/HTML5.png" alt="">
+                    <h1>HTML</h1>
+                </div>
+                    <div><img src="./images/skill icons/CSS3.png" alt="">
+                    <h1>CSS</h1>
+                </div>
+                <div><img src="./images/skill icons/JavaScript.png" alt="">
+                    <h1>JavaScript</h1>
+                </div>
+                <div><img src="./images/skill icons/React.png" alt="">
+                    <h1>React</h1>
+                </div>
+                <div><img src="./images/skill icons/Node.js.png" alt="">
+                    <h1>Node</h1>
+                </div>
+                <div><img src="./images/skill icons/Express.png" alt="">
+                    <h1>Express</h1>
+                </div>
+                <div><img src="./images/skill icons/MongoDB.png" alt="">
+                    <h1>MongoDB</h1>
+                </div>
+                <div><img src="./images/skill icons/Git.png" alt="">
+                    <h1>Git&Github</h1>
+                </div>
+                <div><img src="./images/skill icons/Java.png" alt="">
+                    <h1>Java</h1>
+                </div>
+                <div><img src="./images/skill icons/MySQL.png" alt="">
+                    <h1>MySQL</h1>
+                </div>
+
+            </div>
+        </div>
+        
+    </section>
+
+<!-- ------------------------Projects section ------------------------- -->
+
+ <section class="Projects" id="projects">
+        <div class="pro-container">
+            <div class="pro-con1">
+            <h1>Some things I've built</h1>
+            </div>
+            <a href="">View all projects</a>
+            <div  class="pro-con2">
+            <div class="pro-card">
+                <div>
+                <h3>Task Manager</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet ex eius, iure voluptatum ut.</p>
+                <button><a href="">Live Demo</a></button>
+                </div>
+            </div>
+            
+            <div class="pro-card">
+                <div>
+                <h3>Task Manager</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet ex eius, iure voluptatum ut.</p>
+                <button><a href="">Live Demo</a></button>
+                </div>
+            </div>
+            
+            <div class="pro-card">
+                <div>
+                <h3>Task Manager</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet ex eius, iure voluptatum ut.</p>
+                <button><a href="">Live Demo</a></button>
+                </div>
+            </div>
+            
+            <div class="pro-card">
+                <div>
+                <h3>Task Manager</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet ex eius, iure voluptatum ut.</p>
+                <button><a href="">Live Demo</a></button>
+                </div>
+            </div>
+            
+            <div class="pro-card">
+                <div>
+                <h3>Task Manager</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elitt.</p>
+                <button><a href="">Live Demo</a></button>
+                </div>
+            </div>
+            
+            <div class="pro-card">
+                <div>
+                <h3>Task Manager</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet ex eius, iure voluptatum ut.</p>
+                <button><a href="">Live Demo</a></button>
+                </div>
+            </div>
+            
+            <div class="pro-card">
+                <div>
+                <h3>Task Manager</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet ex eius, iure voluptatum ut.</p>
+                <button><a href="">Live Demo</a></button>
+                </div>
+            </div>
+            
+            <div class="pro-card">
+                <div>
+                <h3>Task Manager</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est amet ex eius, iure voluptatum ut.</p>
+                <button><a href="">Live Demo</a></button>
+                </div>
+            </div>
+            
+           
+            </div>
+        </div>
+
+    </section>
+
+<!-------------------------------------Service Section  ----------------------------------->
+
+<section class="Services" id="services">
+        <div class="ser-bg">
+            <h1>What can I do for you</h1>
+            <div class="full-ser">
+            <div class="ser-container">
+                <div class="ser-card">
+                    <h3>Frontend Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, commodi.</p>
+                </div>
+            </div>
+            <div class="ser-container">
+                <div class="ser-card">
+                    <h3>Frontend Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, commodi.consectetur adipisicing elit. Placeat, commodi.consectetur adipisicing elit. Placeat, commodi.</p>
+                </div>
+            </div>
+            <div class="ser-container">
+                <div class="ser-card">
+                    <h3>Frontend Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat, commodi.</p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+
+    </section>
+
+     <section class="contact" id="contact">
+        <div class="contact-bg">
+            <div class="contact-full">
+                <h1>Contact Me Through</h1>
+                <div>
+
+                </div>
+
+                <div class="contact-card">
+
+                    <div class="card-content">
+                        <div>
+                        <input type="text" placeholder="Your Name" >
+                        <input type="text" placeholder="Your Email">
+                        <input type="text" placeholder="Subject">
+                        <input type="text" placeholder="Your Message">
+                        <button type="submit">Send Message</button>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-----------------------------footer Section  ----------------->
+    <footer class="final">
+        <div class="finish">
+        <div class="final-card">
+            <div>
+            <h1>Services</h1>
+            <h3>Frontend Development</h3>
+            <h3>Web Applications</h3>
+            <h3>Responsive Design</h3>
+            </div>
+        </div>
+        <div class="final-card">
+            <h1>Let's Connect</h1>
+            <h3>Have a project in mind  or just want to  say <br>hello? feel free to reach out!</h3>
+            <h3>developer.learnsgood@gmail.com</h3>
+        </div>
+        </div>
+        <hr>
+        <p>&copy; Mutheeswaran. All rights Reserved</p>
+    </footer>
+  
+    </main>
+
+ 
+ 
+      <!--    </section>
+
+     
+ 
+   
+
+ 
+   
+      -->
+
+     <script src="script.js"></script>
 </body>
 </html>
