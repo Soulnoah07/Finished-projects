@@ -27,9 +27,6 @@ button{
     border-radius: 10px;
     margin-top: 15px;
 }
-body{
-    position: relative;
-}
 header{
     background-color: #0F172A;
     height: 60px;
@@ -60,13 +57,12 @@ header{
 .side-navbar{
     position: fixed;
     top: 0;
+    left: -300px;
     width: 50%;
     height: 100vh;
     background-color: #0F172A;
     transition: 1s;
     display: none;
-    position: absolute;
-    z-index: 1;
 }
 
 .side-navbar-list li{
@@ -131,9 +127,7 @@ header{
 }
 
 .about-container1  p{
-    
     margin: 15px 0px;
-    opacity: 0.7;
     width: 320px;
 }
 .about-container1 h2{
@@ -173,7 +167,6 @@ td{
     background:#4c4c50;
     text-align: center;
     border-radius:20px;
-    opacity: 0.5;
     margin-bottom: 35px;
     padding: 20px 0px;
     transition: all 1s;
@@ -185,7 +178,6 @@ td{
     transform: scale(1.1);
 }
 .con2  div{
-    opacity: 1;
     color: white;
 }
 
@@ -212,7 +204,6 @@ td{
     height: 150px;
     width: 200px;
     background-color: #4c4c50;
-    opacity: .8;
     transition: 1s;
 }
 .skill-images  img{
@@ -278,7 +269,6 @@ td{
 }
 .pro-card p{
     font-size: 15px;
-    opacity: 0.7;
     width: 255px;
 }
 .pro-card div{
@@ -343,7 +333,6 @@ td{
 .ser-card p{
     font-size: 15px;
     width: 240px;
-    opacity: 0.7;
 }
 
 
@@ -370,7 +359,6 @@ td{
     margin-top: 30px;
     margin-left: 20px;
     background-color: #4c4c50;
-    opacity: 0.7;
     border-radius: 20px;
     backface-visibility: visible;
 
@@ -418,7 +406,6 @@ td{
     padding-bottom: 10px;
     font-size: 15px;
     font-weight: 200;
-    opacity: 0.7;
 }
 .final-card h1{
     margin-bottom: 10px;
@@ -434,6 +421,5 @@ td{
 
 .final p{
     margin-top: 30px;
-    opacity: 0.5;
     font-size: 15px;
 } 
