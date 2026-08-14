@@ -84,7 +84,7 @@ header{
 }
 
 .full-content{
-    background: url(./images/BG-images/home.png);
+    background: url(images/home.png);
     height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -117,8 +117,12 @@ header{
 
 
 .about-container{
-    background-color: #0F172A;
+    background-image: url(images/about.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: max-content;
+    padding: 30px;
 }
 .full-about{
     display: flex;
@@ -126,13 +130,18 @@ header{
     align-items: center;
     padding: 40px;
 }
+.about-container1{
+    display: flex;
+    flex-direction: column;
+}
 .about-container1  p{
     margin: 15px 0px;
     display: flex;
     flex-wrap: wrap;
-    width: 500px;
+    width: 250px;
 }
 .about-container1 h2{
+    display: inline-block;
     margin: 15px 0px;
     color: #8B5CF6;
 }
@@ -158,13 +167,12 @@ header{
 }
 table{
     margin: 15px 0px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 280px;
    
 }
 td{
     padding-right: 5px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .card{
     background:#4c4c50;
@@ -186,7 +194,10 @@ td{
 
 
 .skills{
-    background-image: url(./images/BG-images/about.png);
+    background-image: url(images/Skills.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: max-content;
     display: flex;
     text-align: center;
@@ -227,7 +238,10 @@ td{
 
 
 .Projects{
-    background-color:#0F172A;
+    background-image: url(images/skill1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -293,7 +307,7 @@ td{
 
 .Services{
     height:max-content;
-    background-image: url(./images/BG-images/services.png);
+    background-image: url(images/services.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -302,8 +316,10 @@ td{
     align-items: center;
 }
 .ser-bg h1{
+    display: inline-flex;
     padding-top: 50px;
     color: #8B5CF6;
+    align-items: center;
 }
 .ser-container{
     height: 300px;
@@ -339,7 +355,10 @@ td{
 
 
 .contact{
-    background-color:#0F172A ;
+    background-image: url(images/contact.png) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: max-content;
     display: flex;
     flex-direction: column;
@@ -351,6 +370,7 @@ td{
 }
 
 .contact-full h1{
+    display: inline;
     padding-top: 70px;
     color:#8B5CF6;
     font-size: 21px;
@@ -399,7 +419,9 @@ td{
 
 .final{
     height: max-content;
-    background-image: url(./images/BG-images/footer.png);
+    background-image: url(images/footer.png);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 }
