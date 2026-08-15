@@ -1,5 +1,12 @@
-
-
+@media screen and (max-width:340px) {
+    .ser-bg h1{
+        font-size: 1.5rem;
+        }
+   
+        .full-ser{
+            margin: 0px;
+         }
+}
 @media  screen and (max-width:760px) {
     .navbar-list{
         display: none;
@@ -50,6 +57,12 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
+    .skill-container > h2{
+        font-size: 2.5rem;
+    }
+    .pro-con1 > h1{
+        font-size: 2.5rem;
+    }
     .pro-con2{
         display:flex;
         flex-wrap: wrap;
@@ -63,13 +76,19 @@
     .ser-bg{
         text-align: center;
     }
+    .ser-bg{
+        font-size: 1.25em;
+    }
+
+    .contact-bg{
+        font-size: 1.25rem;
+    }
 
 
     .full-ser{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-
         }
     .ser-container{
         margin-left: 40px;
