@@ -321,6 +321,9 @@ td{
     align-items: center;
     text-align: center;
 }
+.ser-bg{
+    margin: 50px 0;
+}
 .ser-bg h1{
     display: inline;
     margin-top:  50px;
