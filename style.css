@@ -206,6 +206,11 @@ td{
 .skill-container{
     padding-bottom: 30px;
 }
+
+.skill-images {
+    display: inline-block;
+    align-items: center;
+}
 .skill-container > h2 {
     padding: 30px 0px 0px 0px;
     color:#A855F7;
