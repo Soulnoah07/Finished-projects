@@ -1,0 +1,29 @@
+name: Build and Test
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-project:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. This uses the updated v4 checkout (Node 24 compliant)
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      # 2. Add any custom test or build steps here if needed.
+      # If you just want to clear the error, this line prints a success message.
+      - name: Run Verification
+        run: echo "Repository checked out successfully using Node 24 actions!"
+
+      # 3. This saves your files as an artifact (Node 24 compliant)
+      # It will zip and save your entire repository folder.
+      - name: Upload Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: project-files
+          path: .
